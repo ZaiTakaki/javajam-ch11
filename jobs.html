@@ -1,0 +1,47 @@
+<!-- 
+Author: Niñofranco, Zairen Mae A.
+Description: JavaJam Coffee House Case Study Chapter 11
+Date Started: December 09, 2022
+Date Ended: December 12, 2022
+Version: 1.0
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>JavaJam Coffee House Jobs</title>
+	<meta charset="utf-8">
+	<link href="javajam.css" rel="stylesheet">
+	<meta name="viewport" content = "width =device-width, initial scale=1.0">
+</head>
+<body>
+<div id="wrapper">
+<header>
+<h1>JavaJam Coffee House</h1>
+</header>
+<nav>
+<ul>
+	<li><a href="index.html">Home</a> </li>
+	<li><a href="menu.html">Menu</a>  </li>
+	<li><a href="music.html">Music</a>  </li>
+	<li><a href="jobs.html">Jobs</a></li>
+</ul>
+</nav>
+<main>
+	<div id="herojobs"></div>
+	<h2>Jobs at JavaJam</h2>
+	<p>Want to work at JavaJam? Fill out the form below to start your application. Required fields are marked with an asterisk(*).</p>
+<form method="POST" action="https://webdevbasics.net/scripts/javajam8.php">
+	<label for="myName">* Name:</label>
+	<input type="text" name="myName" id ="myName" required>
+	<label for="myEmail">* Email:</label>
+	<input type="email" name="myEmail" id ="myEmail" required>
+	<label for="myExperience">* Experience:</label><textarea name="myExperience" id ="myExperience" rows="2" cols="20" required></textarea>
+	<input type="submit" id="mySubmit" value="Apply Now" name="mySubmit">
+</form>
+</main>
+<footer>Copyright &copy; 2018 JavaJam Coffee House<br><a href="mailto:zairenmae.ninofranco@cit.edu">Zairen@Niñofranco.com</a></footer>
+</div>
+</body>
+</html>
